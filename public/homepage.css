@@ -1,0 +1,150 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: Montserrat, sans-serif;
+}
+body{
+    background-color: rgb(37, 37, 37);
+    background-image: url(images/circle-main.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    margin-left: auto;
+    margin-right: auto;
+}   
+#navbar{
+    height: 12%;
+    display: flex;
+    align-items: center;
+    top: 0;
+    transition: top .5s;
+    background: linear-gradient(black, transparent);
+}
+#navbar img{
+    float: left;
+    width: 200px;
+    margin-top: 25px;
+}
+#navbar #mainLogo{
+    padding-left: 7vmin;
+}
+nav{
+    right: 0;
+    position:absolute;
+    padding-right: 2vw;
+}
+nav ul li{
+    font-size: 20px;
+    font-weight: bold;
+    display: inline-block;
+    list-style: none;
+    padding-right: 30px;
+    margin-top: 25px;
+}
+nav ul li a{
+    text-decoration: none;
+    color: white;
+}
+nav ul li a img{
+    max-width: 25px;
+    height: auto;
+    padding: 0;
+}
+
+h1{
+    margin-top: 0%;
+    font-size: 60px;
+    font-style: italic;
+    color: rgb(203, 226, 246)
+}
+
+p{
+    padding-left: 20vw;
+    padding-right: 20vw;
+    font-size: 25px;
+    text-align: center;
+    display: inline-block;
+    color: aliceblue;
+    position: relative;
+}
+h2{
+    padding-top: 30%;
+    margin-top: 30%;
+    font-size: 60px;
+    font-style: italic;
+    color: rgb(203, 226, 246)
+}
+.location h2{
+    margin-top: 50px;
+    font-size: 60px;
+    font-style: italic;
+    color: rgb(203, 226, 246);
+    text-align: center;
+}
+#maps{
+    animation-name: transition;
+    animation-duration: .4s;
+}
+@keyframes transition {
+    from {opacity: 0}
+    to {opacity: 1}
+}
+#mapButton{
+    padding: 5px;
+    background-color: rgb(175, 22, 22);
+    font-weight: bold;
+}
+
+.Footer{
+    margin: 10px;
+    display: fixed;
+    color: aliceblue;
+    margin-top: 100px;
+}
+
+.table,.newsletter{ /*divs in footer*/
+    display: inline-block;
+    padding-right: 15px;
+    padding-left: 15px;
+}
+#footlogo{ /*footer logo*/
+    width: 200px;
+}
+#FB, #IG{ /*IG and FB logo*/
+    width: 20px;
+    height: 20px;
+    margin: 5px 10px 0px 10px;
+}
+.newsletter{ /*table for newsletter subscription*/
+    text-align: right;
+}
+.newsletter label{
+    font-style: italic;
+    font-size: 25px;
+    font-weight: bold;
+}
+#newsLetterMail{
+    background-color: transparent;
+    border: 0;
+    border-bottom: 1px solid white;
+    box-shadow: none;
+    color: white;
+}
+#newsLetterMail:focus{
+    outline: none;
+}
+#subscribe{
+    padding: 5px 20px;
+    border-radius: 20px;
+    border: 1px solid orange;
+    background-color: transparent;
+    color: white;
+}
+#subscribe:hover{
+    background-color: orange;
+    transition: background-color 200ms linear;
+}
+
+button{
+    background-color: red;
+    color: #fff;
+}

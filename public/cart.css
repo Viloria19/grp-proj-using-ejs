@@ -1,0 +1,149 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: Montserrat, sans-serif;
+} 
+body{
+    background-color: rgb(37, 37, 37);
+}
+/*Top NavBar*/
+#navbar{
+    height: 12%;
+    display: flex;
+    align-items: center;
+    top: 0;
+    transition: top .5s;
+    background: linear-gradient(black, transparent);
+}
+#navbar img{
+    float: left;
+    width: 200px;
+    margin-top: 25px;
+}
+#navbar #mainLogo{
+    padding-left: 7vmin;
+}
+nav{
+    right: 0;
+    position:absolute;
+    padding-right: 2vw;
+}
+nav ul li{
+    font-size: 20px;
+    font-weight: bold;
+    display: inline-block;
+    list-style: none;
+    padding-right: 30px;
+    margin-top: 25px;
+}
+nav ul li a{
+    text-decoration: none;
+    color: white;
+}
+nav ul li a img{
+    max-width: 25px;
+    height: auto;
+    padding: 0;
+}
+
+/*Main Content*/
+#content h1{
+    text-align: center;
+    color: white;
+    margin-top: 30px;
+}
+#ordersList{
+    background-color: white;
+    margin: auto;
+    padding: 15px 30px;
+    width: 500px;
+    min-height: 600px;
+    border-radius: 20px;
+}
+#ordersList ul{
+    list-style: none;
+}
+#ordersList img{
+    width: 60px;
+    height: 60px;
+    vertical-align:middle;
+    padding-right: 30px;
+}
+#ordersList li{
+    border-bottom: 1px solid black;
+    padding: 20px;
+}
+
+#editButtons{
+    text-align: right;
+    float: right;
+    margin-top: 15px;
+}
+#editButtons button{
+    width: 30px;
+    height: 30px;
+    border: none;
+    outline: none;
+    margin: 2px 0;
+}
+#editButtons img{
+    width: 30px;
+    height: 30px;
+}
+#editButtons button:focus{
+    border: none;
+    outline: none;
+}
+#editButtons button:hover{
+    filter: brightness(50%);
+}
+/*Footer*/
+.Footer{
+    margin: 10px;
+    display: fixed;
+    color: aliceblue;
+    margin-top: 100px;
+}
+
+.table,.newsletter{ /*divs in footer*/
+    display: inline-block;
+    padding-right: 15px;
+    padding-left: 15px;
+}
+#footlogo{ /*footer logo*/
+    width: 200px;
+}
+#FB, #IG{ /*IG and FB logo*/
+    width: 20px;
+    height: 20px;
+    margin: 5px 10px 0px 10px;
+}
+.newsletter{ /*table for newsletter subscription*/
+    text-align: right;
+}
+.newsletter label{
+    font-style: italic;
+    font-size: 25px;
+    font-weight: bold;
+}
+#newsLetterMail{
+    background-color: transparent;
+    border: 0;
+    border-bottom: 1px solid white;
+    box-shadow: none;
+    color: white;
+}
+#newsLetterMail:focus{
+    outline: none;
+}
+#subscribe{
+    padding: 5px 20px;
+    border-radius: 20px;
+    border: 1px solid orange;
+    background-color: transparent;
+    color: white;
+}
+#subscribe:hover{
+    background-color: orange;
+    transition: background-color 200ms linear;
+}

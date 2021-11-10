@@ -1,0 +1,31 @@
+{
+  "name": "Client-Project",
+  "version": "1.0.0",
+  "main": "backend.js",
+  "dependencies": {
+    "dotenv": "^10.0.0",
+    "ejs": "^3.1.6",
+    "express": "^4.17.1",
+    "mongoose": "^6.0.12",
+    "morgan": "^1.10.0",
+    "mysql2": "^2.3.3-rc.0",
+    "nodemon": "^2.0.14"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node app.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/FrancesTarcena/Client-Project.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/FrancesTarcena/Client-Project/issues"
+  },
+  "homepage": "https://github.com/FrancesTarcena/Client-Project#readme",
+  "description": ""
+}

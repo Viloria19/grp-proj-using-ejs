@@ -1,0 +1,128 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.background{
+    background-image: url(images/menu.png);
+    width: 100%;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+#navbar{
+    height: 12%;
+    display: flex;
+    align-items: center;
+    top: 0;
+    transition: top .5s;
+    background: linear-gradient(black, transparent);
+}
+#navbar img{
+    float: left;
+    width: 200px;
+    margin-top: 25px;
+}
+#navbar #mainLogo{
+    padding-left: 7vmin;
+}
+nav{
+    right: 0;
+    position:absolute;
+    padding-right: 2vw;
+}
+nav ul li{
+    font-size: 20px;
+    font-weight: bold;
+    display: inline-block;
+    list-style: none;
+    padding-right: 30px;
+    margin-top: 25px;
+}
+nav ul li a{
+    text-decoration: none;
+    color: white;
+}
+nav ul li a img{
+    max-width: 25px;
+    height: auto;
+    padding: 0;
+}
+
+.titleBar{
+    text-align: center;
+}
+.titleBar #titleH1{
+    font-size: 38px;
+    color: white;
+    margin-top: 60px;
+}
+.titleBar #titleH4{
+    color: darkred; 
+    font-weight: normal;
+    margin-bottom: 60px;
+}
+.menuList{
+    max-width: 60vw;
+    margin: auto;
+}
+.menuList .labels{
+    color: white;
+    font-weight: normal;
+}
+
+
+.Footer{
+    margin: 10px;
+    display: fixed;
+    color: aliceblue;
+    margin-top: 100px;
+}
+
+.table,.newsletter{ /*divs in footer*/
+    display: inline-block;
+    padding-right: 15px;
+    padding-left: 15px;
+}
+#footlogo{ /*footer logo*/
+    width: 200px;
+}
+#FB, #IG{ /*IG and FB logo*/
+    width: 20px;
+    height: 20px;
+    margin: 5px 10px 0px 10px;
+}
+.newsletter{ /*table for newsletter subscription*/
+    text-align: right;
+}
+.newsletter label{
+    font-style: italic;
+    font-size: 25px;
+    font-weight: bold;
+}
+#newsLetterMail{
+    background-color: transparent;
+    border: 0;
+    border-bottom: 1px solid white;
+    box-shadow: none;
+    color: white;
+}
+#newsLetterMail:focus{
+    outline: none;
+}
+#subscribe{
+    padding: 5px 20px;
+    border-radius: 20px;
+    border: 1px solid orange;
+    background-color: transparent;
+    color: white;
+}
+#subscribe:hover{
+    background-color: orange;
+    transition: background-color 200ms linear;
+}
+
+button{
+    background-color: red;
+    color: #fff;
+}
